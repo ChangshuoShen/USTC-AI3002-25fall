@@ -14,7 +14,7 @@
 
 ### 0.1 数据集
 
-本次实验用到的数据集分为**可见和不可见两部分**，[数据集来源]([Rosykunai/SGEMM_GPU_performance · Datasets at Hugging Face](https：//huggingface.co/datasets/Rosykunai/SGEMM_GPU_performance))，请认真阅读Dataset Card上的有关说明(**非常重要**!)
+本次实验用到的数据集分为**可见和不可见两部分**，[数据集来源]([Rosykunai/SGEMM_GPU_performance · Datasets at Hugging Face](https://huggingface.co/datasets/Rosykunai/SGEMM_GPU_performance))，请认真阅读Dataset Card上的有关说明(**非常重要**!)
 
 有关数据集的概括请参阅Dataset Card, 下面是对数据集各个字段的介绍：
 
@@ -140,3 +140,4 @@ python train.py --mode classification
 + 对这个结果的分析：是否达到了你的预期？实现了你的动机？你对此有什么分析？
 
 最后，助教会使用你的模型在**不可见测试集**上进行测试，按照两个任务的**班级排行**来进行实验效果的打分
+
