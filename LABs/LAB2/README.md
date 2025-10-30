@@ -6,7 +6,7 @@
 
 ## 截止日期
 
-11.31 23:59 (UTC+8)
+2025.11.30 23:59 (UTC+8)
 
 迟交1/2/4/7天将扣除10%/20%/40%/60%分数
 
@@ -53,7 +53,7 @@ pip install -r requirements.txt
   1. 使用你的训练好的PCA对测试集特征进行降维。
   2. 利用你的训练好的GMM模型对降维后的特征进行聚类，得到每个样本的聚类标签。
   3. 在原始784维特征空间下，结合聚类标签，使用 `sklearn.metrics.davies_bouldin_score` 计算测试集的聚类得分。
-  
+
   $DB_{yours} = \frac{1}{K} \sum_{k=1}^{K} \left( \frac{\sum_{i=1}^{n} d(x_i, \mu_k)}{\sum_{j=1}^{n} d(x_j, \mu_j)} - 1 \right)$
 
   具体评分公式待定~
