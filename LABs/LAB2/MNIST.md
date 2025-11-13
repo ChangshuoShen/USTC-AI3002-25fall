@@ -106,6 +106,7 @@ pip install -r requirements.txt
 **输出**：
 
 - 后验概率矩阵 $\gamma$（形状 $(N, K)$），其中 $\gamma_{ik}$ 表示样本 $i$ 属于聚类 $k$ 的概率
+- 对数似然下界的值
 
 #### 2.2.2 M-step实现 (10%)
 
@@ -186,4 +187,4 @@ python visualization.py --results_path ./results/[$时间戳] --plot_mode compar
 
 - 为什么需要先降维再聚类？(5pt)
 - 从训练速度、降维效率、灵活性、数据分布保持程度、可视化效果等方面比较 PCA、t-SNE、AutoEncoder 三种降维方法(5pt)
-- 请介绍一下KMeans 和 GMM 他们的不同点和相同点(5pt)
+- KMeans 和 GMM 都是聚类算法，请介绍一下他们的不同点和相同点(5pt)
