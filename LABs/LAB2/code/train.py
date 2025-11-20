@@ -39,7 +39,7 @@ def main():
         ae = AE.from_pretrained("H2O123h2o/mnist-autoencoder")
         traindata = ae_encode(ae, traindata_raw)
 
-    gmm = GMM(n_components=args.gmm_components,max_iter=args.gmm_max_iter)
+    gmm = GMM(n_components=args.gmm_components,max_iter=args.gmm_max_iter,tol=args.gmm_tol)
     gmm.fit(traindata)
     gmm.save_pretrained(results_path / "gmm")
     print(f"Succesfully saved GMM model to {results_path}/gmm")
