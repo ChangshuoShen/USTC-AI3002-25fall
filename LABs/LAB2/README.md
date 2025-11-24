@@ -16,7 +16,8 @@
 
 + 代码补全(40pt)
 + 实验效果(30pt)
-+ 报告(30pt)
++ 实验检查(10pt)
++ 报告(20pt)
 
 ## 环境配置
 
@@ -44,7 +45,7 @@ pip install -r requirements.txt
 ## 实验效果评分
 
 - Code(40%):见 MNIST.pdf
-- Performance(30%):
+- Performance(20%):
 
   我们在原始数据空间 (784 维) 中使用 `davies_bouldin_score`度量聚类的性能，DB score（戴维森堡分数）衡量聚类簇间的分离性和簇内的紧密性，**值越小表示聚类效果越好**。评分时，会将你生成的聚类标签与原始测试数据输入评分脚本，计算 DB score 并排行。
 
@@ -57,6 +58,11 @@ pip install -r requirements.txt
   $DB_{yours} = \frac{1}{K} \sum_{k=1}^{K} \left( \frac{\sum_{i=1}^{n} d(x_i, \mu_k)}{\sum_{j=1}^{n} d(x_j, \mu_j)} - 1 \right)$
 
   具体评分公式待定~
+- check(10%):
+  实验现场检查，包括但不限于：
+  - 代码是否能正常运行
+  - 可视化结果是否符合预期
+  - 现场问答
 - Report(30%):
 
   - 记录实验流程(4%)
