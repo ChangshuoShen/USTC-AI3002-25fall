@@ -6,7 +6,7 @@
 
 
 ## 环境配置
-基本要求：Windows 、Linux 或MacOS系统，VS Code 等代码编辑器或 IDE。
+基本要求：Windows、Linux 或 macOS 系统，VS Code 等代码编辑器或 IDE。
 
 请按照 [HW0](./HWs/HW0) 的实验文档进行环境配置，并简单验证你的环境。
 
@@ -16,7 +16,7 @@
 
 - **实验中遇到的问题请直接通过在 github 上提 issue 的方式提出!!!**
   - 如何提问：[GitHub-Issue 正确的提问方式 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/75691927)，请同学们在提问前阅读;
-  - 请参考 issue 提问示例;
+  - 请参考仓库中的 issue 提问示例;
   - 助教会尽量在 1 天内回复 issue，提 issue 之前请先搜索有无相似问题已被回答，重复的问题和难以回答的问题不会收到回复;
   - 每次 issue 完成后请保持 open 状态，每次实验 ddl 后助教会关闭当次实验的所有 issue;
   - 如果有不便于展示在 issue 的问题（例如需要贴代码找bug），可以在每次实验课或理论课询问助教。
